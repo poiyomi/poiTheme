@@ -1,14 +1,21 @@
-:root {
-	--guild-icon-height: 20px;
-    --shrunken-border-radius: 7px;
-    --channel-height: 25px;
+/* Avatar stuff */
+.wrapper-2F3Zv8{
+    margin-left: 0px;
 }
 
-.emoji {
-    transition: all .1s ease-in-out;
+.image-33JSyf.large-3ChYtB {
+    margin: 0px;
+    border-radius: 20% !important;
+    width: 56px;
+    height: 56px;
+    margin-right: 0px;
+    margin-left: 8px;
 }
-.emoji:hover {
-    transform: scale(2.4) translateY(-4px); 
+
+.containerCozyBounded-1rKFAn.containerCozy-jafyvG.container-1YxwTf{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
 }
 
 .avatar-large {
@@ -18,144 +25,33 @@
     border-radius: 10px;
 }
 
-/*------------------------------------------------------------
-Title bar
-------------------------------------------------------------*/
-.title-qAcLxz, .titleCall-3X0yGQ{
-    height: 35px
+.headerCozyMeta-rdohGq{
+    margin-left: 15px;
 }
 
-.header-1tSljs{
- 	height: 35px;   
+/* emoji hover scale */
+.emoji {
+    transition: all .1s ease-in-out;
 }
 
-/*------------------------------------------------------------
-GUILDS
-------------------------------------------------------------*/
-
-.guilds-wrapper .guilds .friends-icon {
- 	height: 20px;   
+.emoji:hover {
+    transform: scale(2.6) translateY(-4px); 
 }
 
-.guilds-wrapper .guilds .guild+.guild {
- 	margin-top: 5px;   
+/* server list */
+.guild-1EfMGQ+.guild-1EfMGQ {
+    margin-top: 4px;
 }
 
-.guilds-wrapper .guilds .guild {
-    height: var(--guild-icon-height);
-    width: 50px;
-    transition: height 0.1s ease;
+.guilds-1q_RqH {
+    padding-left: 4px;
 }
 
-.guilds-wrapper .guilds .guild .avatar-small {
- 	top: 50%;
-    transform: translateY(-50%);
+.guildsWrapper-5TJh6A {
+    width: 58px;
 }
 
-.guild .guild-inner{
-    height: var(--guild-icon-height);
-    width: 50px; 
-    transition: height 0.1s ease;
-    border-radius: var(--shrunken-border-radius) !important;
-}
-
-.selected .guild-inner{
-    height: 50px;
-    width: 50px; 
-}
-
-.selected .guild-inner{
-    height: 50px;
-    width: 50px; 
-}
-
-.guilds-wrapper .guilds .guild.selected{
-    height: 50px;
-    width: 50px; 
-    transition: height 0.1s ease;
-}
-
-.guilds-wrapper .guilds .guild .guilds-error {
-	height: var(--guild-icon-height);
-    line-height: 15px;
-    font-size: 15px;
-}
-
-.guild.guilds-add {
-    height: var(--guild-icon-height);
-    line-height: 15px;
-    font-size: 15px;
-    border-radius: 6px;
-}
-
-/*------------------------------------------------------------
-Channels
-------------------------------------------------------------*/
-
-.channels-3g2vYe{
-	width: 220px;   
-}
-
-.containerDefault-7RImuF, .containerDragAfter-3rB7mB, .containerDragBefore-12YyA9, .containerUserOver-2YhVL6{
-	height: var(--channel-height);  
-}
-
-.containerDefault-1bbItS, .containerDragAfter-3O-noP, .containerDragBefore-2hcouM, .containerUserOver-3O3u5c{
- 	padding-top: 15px;   
-}
-
-.wrapper-fDmxzK{
-    height: var(--channel-height); 
-}
-
-.content-2mSKOj { 
-    height: var(--channel-height);
-}
-
-/*------------------------------------------------------------
-Channel Members
-------------------------------------------------------------*/
-
-.channel-members-wrap{
- 	min-width: 220px   
-}
-
-.old-h2{
-	margin-bottom: 6px;    
-}
-
-.channel-members h2 {
-	margin-top: 20px;
-    padding: 0 6px;
-}
-
-.channel-members{
-	max-width: 220px;   
-}
-
-.channel-members .member{
-    padding: 0px 4px 0px 6px;
-    height: 35px;
-}
-
-/*------------------------------------------------------------
-Chat
-------------------------------------------------------------*/
-
-
-.message-group .comment .markup{
- 	margin-top: 4px;
-}
-
-.message-group{
-	margin-left: 10px;
-	padding: 10px 0px;
-}
-
-/*------------------------------------------------------------
-modal
-------------------------------------------------------------*/
-.modal-2LIEKY{
-    padding-top: 40px;
-    padding-bottom 40px;
+/* voice chat */
+.nameHovered-21k1eo, .nameSpeaking-3UhoEZ{
+    color: #43b581;
 }
