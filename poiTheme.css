@@ -37,16 +37,3 @@
 .emoji:hover {
     transform: scale(2.6) translateY(-4px); 
 }
-
-/* server list */
-.guild-1EfMGQ+.guild-1EfMGQ {
-    margin-top: 4px;
-}
-
-.guilds-1q_RqH {
-    padding-left: 4px;
-}
-
-.guildsWrapper-5TJh6A {
-    width: 58px;
-}
